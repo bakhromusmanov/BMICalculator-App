@@ -58,13 +58,37 @@
 			children = (
 				D0A964382C426C6E001D2BCC /* AppDelegate.swift */,
 				D0A9643A2C426C6E001D2BCC /* SceneDelegate.swift */,
-				D0A9643C2C426C6E001D2BCC /* ViewController.swift */,
-				D0A9643E2C426C6E001D2BCC /* Main.storyboard */,
+				D0A9644F2C426E68001D2BCC /* Model */,
+				D0A9644D2C426E27001D2BCC /* Controller */,
+				D0A9644E2C426E33001D2BCC /* View */,
 				D0A964412C426C70001D2BCC /* Assets.xcassets */,
 				D0A964432C426C70001D2BCC /* LaunchScreen.storyboard */,
 				D0A964462C426C70001D2BCC /* Info.plist */,
 			);
 			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		D0A9644D2C426E27001D2BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0A9643C2C426C6E001D2BCC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0A9644E2C426E33001D2BCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0A9643E2C426C6E001D2BCC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0A9644F2C426E68001D2BCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +324,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +353,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
