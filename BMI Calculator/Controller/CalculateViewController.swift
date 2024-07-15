@@ -21,7 +21,6 @@ class CalculateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
     @IBAction func heightSliderChanged(_ sender: UISlider) {
@@ -33,7 +32,6 @@ class CalculateViewController: UIViewController {
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
-        
         calculatorBrain.calculateBMI(height: heightSlider.value, weight: weightSlider.value)
         performSegue(withIdentifier: "goToResult", sender: self)
     }
