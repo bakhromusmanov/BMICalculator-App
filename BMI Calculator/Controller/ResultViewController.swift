@@ -9,12 +9,12 @@ import UIKit
 
 class ResultViewController: UIViewController {
     
-    var bmiValue: String?
     @IBOutlet weak var resultLabel: UILabel!
+    var calculatorBrain = CalculatorBrain()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        resultLabel.text = bmiValue
+        resultLabel.text = calculatorBrain.bmi
 
     }
     
